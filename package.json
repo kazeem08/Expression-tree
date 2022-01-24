@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kazeem Jimoh",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.4.7"
