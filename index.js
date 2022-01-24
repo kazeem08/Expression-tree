@@ -16,6 +16,7 @@ class Node {
       }
 }
 
+module.exports = Node;
 
 
 // const Node = (operator, value, left, right) => {
@@ -51,19 +52,19 @@ class Node {
 //   };
 // };
 
-const tree = Node(
-  "÷",
-  null,
-  Node(
-    "+",
-    null,
-    Node("", 7, null, null),
-    Node(
-      "x",
-      null,
-      Node("-", null, Node("", 3, null, null), Node("", 2, null, null)),
-      Node("", 5, null, null)
-    )
-  ),
-  Node("", 6, null, null)
-);
+// const tree = Node(
+//   "÷",
+//   null,
+//   Node(
+//     "+",
+//     null,
+//     Node("", 7, null, null),
+//     Node(
+//       "x",
+//       null,
+//       Node("-", null, Node("", 3, null, null), Node("", 2, null, null)),
+//       Node("", 5, null, null)
+//     )
+//   ),
+//   Node("", 6, null, null)
+// );
